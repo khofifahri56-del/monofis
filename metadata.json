@@ -1,0 +1,6 @@
+{
+  "name": "MONOFIS - Monopoly Fisika",
+  "description": "Media pembelajaran IPA interaktif berbasis papan permainan bertema Cahaya dan Alat Optik dengan sistem real-time multiplayer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

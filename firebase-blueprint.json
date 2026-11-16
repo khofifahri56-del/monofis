@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "GameSession": {
+      "title": "GameSession",
+      "description": "Sesi permainan edukasi Monofis (Monopoly Fisika)",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "gameCode": { "type": "string", "maxLength": 16 },
+        "gameName": { "type": "string", "maxLength": 128 },
+        "teacherName": { "type": "string", "maxLength": 64 },
+        "status": { "type": "string", "enum": ["waiting", "playing", "paused", "finished"] },
+        "currentTurnGroupId": { "type": "string" },
+        "currentTurnIndex": { "type": "number" },
+        "turnNumber": { "type": "number" },
+        "createdAt": { "type": "number" },
+        "updatedAt": { "type": "number" }
+      },
+      "required": ["gameCode", "gameName", "status", "createdAt"]
+    },
+    "Group": {
+      "title": "Group",
+      "description": "Kelompok siswa yang berpartisipasi dalam sesi permainan",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string", "maxLength": 64 },
+        "color": { "type": "string", "maxLength": 32 },
+        "avatar": { "type": "string", "maxLength": 32 },
+        "pionPosition": { "type": "number" },
+        "score": { "type": "number" },
+        "quizPoints": { "type": "number" },
+        "bonusPoints": { "type": "number" },
+        "challengePoints": { "type": "number" },
+        "correctAnswersCount": { "type": "number" },
+        "wrongAnswersCount": { "type": "number" },
+        "joinedAt": { "type": "number" },
+        "status": { "type": "string", "enum": ["active", "disconnected"] }
+      },
+      "required": ["name", "pionPosition", "score", "status"]
+    },
+    "AnswerRecord": {
+      "title": "AnswerRecord",
+      "description": "Catatan jawaban kuis kelompok",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "groupId": { "type": "string" },
+        "groupName": { "type": "string" },
+        "questionId": { "type": "string" },
+        "selectedAnswer": { "type": "string" },
+        "selectedIndex": { "type": "number" },
+        "isCorrect": { "type": "boolean" },
+        "pointsAwarded": { "type": "number" },
+        "answeredAt": { "type": "number" }
+      },
+      "required": ["groupId", "questionId", "isCorrect", "pointsAwarded"]
+    },
+    "GameEvent": {
+      "title": "GameEvent",
+      "description": "Log aktivitas dan pergerakan pion real-time",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "groupId": { "type": "string" },
+        "groupName": { "type": "string" },
+        "eventType": { "type": "string" },
+        "description": { "type": "string" },
+        "fromPosition": { "type": "number" },
+        "toPosition": { "type": "number" },
+        "pointsAwarded": { "type": "number" },
+        "timestamp": { "type": "number" }
+      },
+      "required": ["groupId", "eventType", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/games/{gameId}": {
+      "schema": "GameSession",
+      "description": "Dokumen sesi permainan utama"
+    },
+    "/games/{gameId}/groups/{groupId}": {
+      "schema": "Group",
+      "description": "Subkoleksi kelompok peserta dalam game"
+    },
+    "/games/{gameId}/answers/{answerId}": {
+      "schema": "AnswerRecord",
+      "description": "Subkoleksi riwayat jawaban kuis"
+    },
+    "/games/{gameId}/events/{eventId}": {
+      "schema": "GameEvent",
+      "description": "Subkoleksi riwayat aksi dan pergerakan pion"
+    }
+  }
+}

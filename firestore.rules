@@ -1,0 +1,65 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isValidGame(data) {
+      return data.keys().hasAll(['gameCode', 'gameName', 'status', 'createdAt']) &&
+        data.gameCode is string && data.gameCode.size() <= 16 &&
+        data.gameName is string && data.gameName.size() <= 128 &&
+        data.status in ['waiting', 'playing', 'paused', 'finished'];
+    }
+
+    function isValidGroup(data) {
+      return data.keys().hasAll(['name', 'pionPosition', 'score', 'status']) &&
+        data.name is string && data.name.size() <= 64 &&
+        data.pionPosition is number && data.pionPosition >= 0 && data.pionPosition < 24 &&
+        data.score is number && data.score >= 0 &&
+        data.status in ['active', 'disconnected'];
+    }
+
+    // Games collection
+    match /games/{gameId} {
+      allow get, list: if true; // Publicly queryable by code for students to join
+      allow create: if isSignedIn() && isValidId(gameId) && isValidGame(request.resource.data);
+      allow update: if isSignedIn() && isValidId(gameId) && isValidGame(request.resource.data);
+
+      // Groups subcollection
+      match /groups/{groupId} {
+        allow get, list: if true;
+        allow create: if isValidId(groupId) && isValidGroup(request.resource.data);
+        allow update: if isValidId(groupId) && isValidGroup(request.resource.data);
+      }
+
+      // Answers subcollection
+      match /answers/{answerId} {
+        allow get, list: if true;
+        allow create: if isValidId(answerId) &&
+          request.resource.data.keys().hasAll(['groupId', 'questionId', 'isCorrect', 'pointsAwarded']) &&
+          request.resource.data.pointsAwarded in [0, 10];
+        allow update, delete: if false; // Answers are immutable once submitted
+      }
+
+      // Events subcollection
+      match /events/{eventId} {
+        allow get, list: if true;
+        allow create: if isValidId(eventId) &&
+          request.resource.data.keys().hasAll(['groupId', 'eventType', 'timestamp']);
+        allow update, delete: if false; // Events audit log is immutable
+      }
+    }
+  }
+}

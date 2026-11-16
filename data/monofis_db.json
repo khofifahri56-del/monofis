@@ -1,0 +1,689 @@
+[
+  {
+    "id": "game_cee3vy5_1793579936665",
+    "gameCode": "BJC-225",
+    "gameName": "Kelas 8A Fisika",
+    "teacherName": "Ibu Rahma",
+    "status": "playing",
+    "currentTurnGroupId": "grp_ooe0jo",
+    "currentTurnIndex": 0,
+    "turnNumber": 1,
+    "currentAction": {
+      "groupId": "grp_ooe0jo",
+      "type": "material",
+      "tileIndex": 1,
+      "contentId": "mat_1",
+      "diceValue": 1,
+      "bonusClaimed": false
+    },
+    "groups": {
+      "grp_ooe0jo": {
+        "id": "grp_ooe0jo",
+        "name": "Kelompok Newton",
+        "color": "#f43f5e",
+        "avatar": "prism",
+        "pionPosition": 1,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793579936681,
+        "lastActiveAt": 1793579936702,
+        "status": "active"
+      },
+      "grp_gsjog6": {
+        "id": "grp_gsjog6",
+        "name": "Kelompok Snellius",
+        "color": "#3b82f6",
+        "avatar": "lens",
+        "pionPosition": 0,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793579936687,
+        "lastActiveAt": 1793579936687,
+        "status": "active"
+      },
+      "grp_m7bvje": {
+        "id": "grp_m7bvje",
+        "name": "Kelompok Galileo",
+        "color": "#10b981",
+        "avatar": "mirror",
+        "pionPosition": 0,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793579936691,
+        "lastActiveAt": 1793579936691,
+        "status": "active"
+      }
+    },
+    "groupOrder": [
+      "grp_ooe0jo",
+      "grp_gsjog6",
+      "grp_m7bvje"
+    ],
+    "answers": {},
+    "events": [
+      {
+        "id": "evt_1793579936702",
+        "groupId": "grp_ooe0jo",
+        "groupName": "Kelompok Newton",
+        "eventType": "move",
+        "fromPosition": 0,
+        "toPosition": 1,
+        "description": "🎲 Kelompok Newton melempar dadu: [1]! Bergerak ke Kotak #1 (Sifat Cahaya).",
+        "timestamp": 1793579936702
+      },
+      {
+        "id": "evt_1793579936696",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_start",
+        "description": "Permainan dimulai! Giliran pertama: Kelompok Newton",
+        "timestamp": 1793579936696
+      },
+      {
+        "id": "evt_1793579936691_bry",
+        "groupId": "grp_m7bvje",
+        "groupName": "Kelompok Galileo",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Galileo\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793579936691
+      },
+      {
+        "id": "evt_1793579936687_9n5",
+        "groupId": "grp_gsjog6",
+        "groupName": "Kelompok Snellius",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Snellius\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793579936687
+      },
+      {
+        "id": "evt_1793579936681_1ur",
+        "groupId": "grp_ooe0jo",
+        "groupName": "Kelompok Newton",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Newton\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793579936681
+      },
+      {
+        "id": "evt_1793579936665",
+        "groupId": "system",
+        "groupName": "Sistem MONOFIS",
+        "eventType": "game_start",
+        "description": "Sesi permainan \"Kelas 8A Fisika\" berhasil dibuat dengan Kode: BJC-225",
+        "timestamp": 1793579936665
+      }
+    ],
+    "createdAt": 1793579936665,
+    "updatedAt": 1793579936702
+  },
+  {
+    "id": "game_e46toe5_1793579952118",
+    "gameCode": "KDD-649",
+    "gameName": "Uji Kuis",
+    "teacherName": "Guru Fisika",
+    "status": "playing",
+    "currentTurnGroupId": "grp_k4yzcg",
+    "currentTurnIndex": 0,
+    "turnNumber": 4,
+    "currentAction": {
+      "groupId": "grp_k4yzcg",
+      "type": "quiz",
+      "tileIndex": 11,
+      "contentId": "quiz_4",
+      "diceValue": 2,
+      "bonusClaimed": false,
+      "answered": true
+    },
+    "groups": {
+      "grp_k4yzcg": {
+        "id": "grp_k4yzcg",
+        "name": "Kelompok Cahaya",
+        "color": "#f43f5e",
+        "avatar": "prism",
+        "pionPosition": 11,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 1,
+        "joinedAt": 1793579952131,
+        "lastActiveAt": 1793579952170,
+        "status": "active"
+      }
+    },
+    "groupOrder": [
+      "grp_k4yzcg"
+    ],
+    "answers": {
+      "ans_1793579952170_wkri": {
+        "id": "ans_1793579952170_wkri",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "questionId": "quiz_4",
+        "questionTitle": "Kuis: Pembentukan Bayangan Cermin Cekung",
+        "selectedAnswer": "B. Nyata, tegak, dan diperbesar",
+        "selectedIndex": 1,
+        "isCorrect": false,
+        "pointsAwarded": 0,
+        "answeredAt": 1793579952170
+      }
+    },
+    "events": [
+      {
+        "id": "evt_1793579952170",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "quiz_answered",
+        "pointsAwarded": 0,
+        "description": "❌ Kelompok Cahaya menjawab salah pada Kuis: Pembentukan Bayangan Cermin Cekung. (+0 Poin)",
+        "timestamp": 1793579952170
+      },
+      {
+        "id": "evt_1793579952166",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "move",
+        "fromPosition": 9,
+        "toPosition": 11,
+        "description": "🎲 Kelompok Cahaya melempar dadu: [2]! Bergerak ke Kotak #11 (Kuis Ruang Bayangan).",
+        "timestamp": 1793579952166
+      },
+      {
+        "id": "evt_1793579952157",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "move",
+        "fromPosition": 7,
+        "toPosition": 9,
+        "description": "🎲 Kelompok Cahaya melempar dadu: [2]! Bergerak ke Kotak #9 (Misi Fokus Cekung).",
+        "timestamp": 1793579952157
+      },
+      {
+        "id": "evt_1793579952149",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "move",
+        "fromPosition": 3,
+        "toPosition": 7,
+        "description": "🎲 Kelompok Cahaya melempar dadu: [4]! Bergerak ke Kotak #7 (Cermin Datar).",
+        "timestamp": 1793579952149
+      },
+      {
+        "id": "evt_1793579952139",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "move",
+        "fromPosition": 0,
+        "toPosition": 3,
+        "description": "🎲 Kelompok Cahaya melempar dadu: [3]! Bergerak ke Kotak #3 (Misi Umbra & Penumbra).",
+        "timestamp": 1793579952139
+      },
+      {
+        "id": "evt_1793579952134",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_start",
+        "description": "Permainan dimulai! Giliran pertama: Kelompok Cahaya",
+        "timestamp": 1793579952134
+      },
+      {
+        "id": "evt_1793579952131_oo6",
+        "groupId": "grp_k4yzcg",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Cahaya\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793579952131
+      },
+      {
+        "id": "evt_1793579952118",
+        "groupId": "system",
+        "groupName": "Sistem MONOFIS",
+        "eventType": "game_start",
+        "description": "Sesi permainan \"Uji Kuis\" berhasil dibuat dengan Kode: KDD-649",
+        "timestamp": 1793579952118
+      }
+    ],
+    "createdAt": 1793579952118,
+    "updatedAt": 1793579952170
+  },
+  {
+    "id": "game_tr99wtw_1793579960223",
+    "gameCode": "NKZ-358",
+    "gameName": "Uji Kuis Benar",
+    "teacherName": "Guru Fisika",
+    "status": "playing",
+    "currentTurnGroupId": "grp_8suvoe",
+    "currentTurnIndex": 0,
+    "turnNumber": 5,
+    "currentAction": {
+      "groupId": "grp_8suvoe",
+      "type": "quiz",
+      "tileIndex": 2,
+      "contentId": "quiz_1",
+      "diceValue": 5,
+      "bonusClaimed": false
+    },
+    "groups": {
+      "grp_8suvoe": {
+        "id": "grp_8suvoe",
+        "name": "Kelompok Jawaban Benar",
+        "color": "#10b981",
+        "avatar": "laser",
+        "pionPosition": 2,
+        "score": 20,
+        "quizPoints": 0,
+        "bonusPoints": 20,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793579960235,
+        "lastActiveAt": 1793579960278,
+        "status": "active"
+      }
+    },
+    "groupOrder": [
+      "grp_8suvoe"
+    ],
+    "answers": {},
+    "events": [
+      {
+        "id": "evt_1793579960278",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 21,
+        "toPosition": 2,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [5]! Bergerak ke Kotak #2 (Kuis Sifat Cahaya).",
+        "timestamp": 1793579960278
+      },
+      {
+        "id": "evt_1793579960269",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 15,
+        "toPosition": 21,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [6]! Bergerak ke Kotak #21 (Misi Desain Periskop).",
+        "timestamp": 1793579960269
+      },
+      {
+        "id": "evt_1793579960261",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 12,
+        "toPosition": 15,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [3]! Bergerak ke Kotak #15 (Misi Sudut Kritis).",
+        "timestamp": 1793579960261
+      },
+      {
+        "id": "evt_1793579960254",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 6,
+        "toPosition": 12,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [6]! Bergerak ke Kotak #12 (Misi Cermin Tikungan).",
+        "timestamp": 1793579960254
+      },
+      {
+        "id": "evt_1793579960243",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 0,
+        "toPosition": 6,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [6]! Bergerak ke Kotak #6 (BONUS FOTON OPTIK).",
+        "timestamp": 1793579960243
+      },
+      {
+        "id": "evt_1793579960243_bonus",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "bonus_claimed",
+        "pointsAwarded": 20,
+        "description": "🎉 BONUS OPTIK! Kelompok Jawaban Benar mendarat di Kotak Bonus dan memperoleh +20 POIN!",
+        "timestamp": 1793579960243
+      },
+      {
+        "id": "evt_1793579960240",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_start",
+        "description": "Permainan dimulai! Giliran pertama: Kelompok Jawaban Benar",
+        "timestamp": 1793579960240
+      },
+      {
+        "id": "evt_1793579960235_dyb",
+        "groupId": "grp_8suvoe",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Jawaban Benar\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793579960235
+      },
+      {
+        "id": "evt_1793579960223",
+        "groupId": "system",
+        "groupName": "Sistem MONOFIS",
+        "eventType": "game_start",
+        "description": "Sesi permainan \"Uji Kuis Benar\" berhasil dibuat dengan Kode: NKZ-358",
+        "timestamp": 1793579960223
+      }
+    ],
+    "createdAt": 1793579960223,
+    "updatedAt": 1793579960278
+  },
+  {
+    "id": "game_t7vsyik_1793579968156",
+    "gameCode": "LLB-934",
+    "gameName": "Uji Kuis Benar",
+    "teacherName": "Guru Fisika",
+    "status": "playing",
+    "currentTurnGroupId": "grp_r54l8a",
+    "currentTurnIndex": 0,
+    "turnNumber": 5,
+    "currentAction": {
+      "groupId": "grp_r54l8a",
+      "type": "quiz",
+      "tileIndex": 20,
+      "contentId": "quiz_7",
+      "diceValue": 4,
+      "bonusClaimed": false,
+      "answered": true
+    },
+    "groups": {
+      "grp_r54l8a": {
+        "id": "grp_r54l8a",
+        "name": "Kelompok Jawaban Benar",
+        "color": "#10b981",
+        "avatar": "laser",
+        "pionPosition": 20,
+        "score": 30,
+        "quizPoints": 10,
+        "bonusPoints": 20,
+        "challengePoints": 0,
+        "correctAnswersCount": 1,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793579968169,
+        "lastActiveAt": 1793579968221,
+        "status": "active"
+      }
+    },
+    "groupOrder": [
+      "grp_r54l8a"
+    ],
+    "answers": {
+      "ans_1793579968221_fkse": {
+        "id": "ans_1793579968221_fkse",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "questionId": "quiz_7",
+        "questionTitle": "Kuis: Cacat Mata & Lensa Koreksi",
+        "selectedAnswer": "C. Miopi (rabun jauh), dibantu lensa cekung (negatif)",
+        "selectedIndex": 2,
+        "isCorrect": true,
+        "pointsAwarded": 10,
+        "answeredAt": 1793579968222
+      }
+    },
+    "events": [
+      {
+        "id": "evt_1793579968222",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "quiz_answered",
+        "pointsAwarded": 10,
+        "description": "✨ Kelompok Jawaban Benar MENJAWAB BENAR pada Kuis: Cacat Mata & Lensa Koreksi! (+10 Poin)",
+        "timestamp": 1793579968222
+      },
+      {
+        "id": "evt_1793579968206",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 16,
+        "toPosition": 20,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [4]! Bergerak ke Kotak #20 (Kuis Cacat Mata).",
+        "timestamp": 1793579968206
+      },
+      {
+        "id": "evt_1793579968200",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 13,
+        "toPosition": 16,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [3]! Bergerak ke Kotak #16 (Lensa Tipis).",
+        "timestamp": 1793579968200
+      },
+      {
+        "id": "evt_1793579968190",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 12,
+        "toPosition": 13,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [1]! Bergerak ke Kotak #13 (Pembiasan Cahaya).",
+        "timestamp": 1793579968190
+      },
+      {
+        "id": "evt_1793579968184",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 6,
+        "toPosition": 12,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [6]! Bergerak ke Kotak #12 (Misi Cermin Tikungan).",
+        "timestamp": 1793579968184
+      },
+      {
+        "id": "evt_1793579968177",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "move",
+        "fromPosition": 0,
+        "toPosition": 6,
+        "description": "🎲 Kelompok Jawaban Benar melempar dadu: [6]! Bergerak ke Kotak #6 (BONUS FOTON OPTIK).",
+        "timestamp": 1793579968177
+      },
+      {
+        "id": "evt_1793579968177_bonus",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "bonus_claimed",
+        "pointsAwarded": 20,
+        "description": "🎉 BONUS OPTIK! Kelompok Jawaban Benar mendarat di Kotak Bonus dan memperoleh +20 POIN!",
+        "timestamp": 1793579968177
+      },
+      {
+        "id": "evt_1793579968173",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_start",
+        "description": "Permainan dimulai! Giliran pertama: Kelompok Jawaban Benar",
+        "timestamp": 1793579968173
+      },
+      {
+        "id": "evt_1793579968169_qsz",
+        "groupId": "grp_r54l8a",
+        "groupName": "Kelompok Jawaban Benar",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Jawaban Benar\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793579968169
+      },
+      {
+        "id": "evt_1793579968156",
+        "groupId": "system",
+        "groupName": "Sistem MONOFIS",
+        "eventType": "game_start",
+        "description": "Sesi permainan \"Uji Kuis Benar\" berhasil dibuat dengan Kode: LLB-934",
+        "timestamp": 1793579968156
+      }
+    ],
+    "createdAt": 1793579968156,
+    "updatedAt": 1793579968222
+  },
+  {
+    "id": "game_8vyzeyr_1793587498443",
+    "gameCode": "CVU-682",
+    "gameName": "Kelas 8C IPA Terpadu",
+    "teacherName": "Bpk. Hendra",
+    "status": "finished",
+    "currentTurnGroupId": "grp_yxlb43",
+    "currentTurnIndex": 1,
+    "turnNumber": 2,
+    "currentAction": {
+      "groupId": "grp_yxlb43",
+      "type": "roll_dice",
+      "tileIndex": 0
+    },
+    "groups": {
+      "grp_5yzemk": {
+        "id": "grp_5yzemk",
+        "name": "Kelompok Cahaya",
+        "color": "#f43f5e",
+        "avatar": "laser",
+        "pionPosition": 5,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793587498468,
+        "lastActiveAt": 1793587498487,
+        "status": "active"
+      },
+      "grp_yxlb43": {
+        "id": "grp_yxlb43",
+        "name": "Kelompok Lensa",
+        "color": "#3b82f6",
+        "avatar": "lens",
+        "pionPosition": 0,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793587498474,
+        "lastActiveAt": 1793587498474,
+        "status": "active"
+      },
+      "grp_abow8p": {
+        "id": "grp_abow8p",
+        "name": "Kelompok Cermin",
+        "color": "#10b981",
+        "avatar": "mirror",
+        "pionPosition": 0,
+        "score": 0,
+        "quizPoints": 0,
+        "bonusPoints": 0,
+        "challengePoints": 0,
+        "correctAnswersCount": 0,
+        "wrongAnswersCount": 0,
+        "joinedAt": 1793587498478,
+        "lastActiveAt": 1793587498478,
+        "status": "active"
+      }
+    },
+    "groupOrder": [
+      "grp_5yzemk",
+      "grp_yxlb43",
+      "grp_abow8p"
+    ],
+    "answers": {},
+    "events": [
+      {
+        "id": "evt_1793587498507",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_ended",
+        "description": "🏁 Permainan telah selesai! Pemenang: Kelompok Cahaya dengan 0 Poin!",
+        "timestamp": 1793587498507
+      },
+      {
+        "id": "evt_1793587498493",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_resumed",
+        "description": "Permainan dilanjutkan kembali.",
+        "timestamp": 1793587498493
+      },
+      {
+        "id": "evt_1793587498490",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_paused",
+        "description": "Permainan dijeda oleh Guru.",
+        "timestamp": 1793587498490
+      },
+      {
+        "id": "evt_1793587498487",
+        "groupId": "grp_5yzemk",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "move",
+        "fromPosition": 0,
+        "toPosition": 5,
+        "description": "🎲 Kelompok Cahaya melempar dadu: [5]! Bergerak ke Kotak #5 (Kuis Sudut Pantul).",
+        "timestamp": 1793587498487
+      },
+      {
+        "id": "evt_1793587498482",
+        "groupId": "system",
+        "groupName": "Guru Fisika",
+        "eventType": "game_start",
+        "description": "Permainan dimulai! Giliran pertama: Kelompok Cahaya",
+        "timestamp": 1793587498482
+      },
+      {
+        "id": "evt_1793587498478_l2o",
+        "groupId": "grp_abow8p",
+        "groupName": "Kelompok Cermin",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Cermin\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793587498478
+      },
+      {
+        "id": "evt_1793587498474_38k",
+        "groupId": "grp_yxlb43",
+        "groupName": "Kelompok Lensa",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Lensa\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793587498474
+      },
+      {
+        "id": "evt_1793587498468_kz1",
+        "groupId": "grp_5yzemk",
+        "groupName": "Kelompok Cahaya",
+        "eventType": "joined",
+        "description": "Kelompok \"Kelompok Cahaya\" bergabung ke dalam permainan MONOFIS.",
+        "timestamp": 1793587498468
+      },
+      {
+        "id": "evt_1793587498443",
+        "groupId": "system",
+        "groupName": "Sistem MONOFIS",
+        "eventType": "game_start",
+        "description": "Sesi permainan \"Kelas 8C IPA Terpadu\" berhasil dibuat dengan Kode: CVU-682",
+        "timestamp": 1793587498443
+      }
+    ],
+    "createdAt": 1793587498443,
+    "updatedAt": 1793587498507,
+    "finishedAt": 1793587498507,
+    "winnerGroupId": "grp_5yzemk"
+  }
+]

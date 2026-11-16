@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Guru Admin",
+      "email": "admin@monofis.id",
+      "role": "admin",
+      "passwordHash": "3920ac7aeff49a0e4be47ffe98837e7502d9e6ae4873004d3d0dbc054e8dec53",
+      "createdAt": 1794796291364
+    },
+    {
+      "id": "usr_mod_1",
+      "name": "Moderator Kelas",
+      "email": "moderator@monofis.id",
+      "role": "moderator",
+      "passwordHash": "8a5f4927afe25c1aafe5375523758de456aff1089f870408470a743d6842a86b",
+      "createdAt": 1794796291364
+    },
+    {
+      "id": "usr_siswa_1",
+      "name": "Siswa Eksperimen",
+      "email": "siswa@monofis.id",
+      "role": "user",
+      "passwordHash": "bcf4d2f3ee41f27a4734fbe028559e0c91d2f3aad905e46ccc60d810798c2c9a",
+      "createdAt": 1794796291364
+    }
+  ],
+  "tokens": {
+    "4bf04b4d36ee1f0cacfff556ba4850c1a1d23ef04949b7cd": "usr_admin_1",
+    "35d00eba1420349a4ac7f14345a96bad30ad223733df9c56": "usr_mod_1",
+    "30eeaef42e8b8d9e3aa45315f4e54b0513d5235b24388ab6": "usr_siswa_1"
+  }
+}
